@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  podtato-head:
+  - apiVersion: v2
+    appVersion: 0.3.3
+    created: "2024-02-23T12:28:22.088234057-05:00"
+    description: Deploys the podtato-head app
+    digest: e3180eb1c52c5fb39250622f5ed1efe2b3ca865158074fc9f600374b712d2732
+    name: podtato-head
+    urls:
+    - mxnxpx.github.io/podtato-head-0.3.3.tgz
+    version: 0.3.3
+generated: "2024-02-23T12:28:22.087462242-05:00"
