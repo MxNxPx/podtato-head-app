@@ -8,6 +8,7 @@ metadata:
   name: {{ printf "%s-%s" (include "podtato-head.fullname" .) $componentName }}
   labels:
     {{- include "podtato-head.labels" . | nindent 4 }}
+    zarf.dev/connect-name: podtato-head
     app.kubernetes.io/component: {{ printf "%s-%s" (include "podtato-head.fullname" .) $componentName }}
 spec:
   type: {{ default "ClusterIP" $serviceType }}
